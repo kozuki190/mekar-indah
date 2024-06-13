@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Laporan Kas Remaja Mekar Indah</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+
+  
+  <!-- bootstrapp css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- bootstrap icon css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+</head>
+
+<body>
+  
+  <script src="script.js"></script>
+  <!-- bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+  
+  
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MEKAR INDAH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Arus Kas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Laporan
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#inputKas">Input Kas</a></li>
+                <li><a class="dropdown-item" href="#">Hapus Laporan</a></li>
+                <!-- <li>
+                  <hr class="dropdown-divider">
+                </li> -->
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  <main>
+    <section>
+      <h1>ARUS KAS</h1>
+      <p>Arus kas remaja Mekar Indah dapat di lihat di sini</p>
+      
+      <iframe src="https://script.google.com/macros/s/AKfycbxfxz2pwP51Ek3UymwWeS8jJh7X-cI27jAAOTmmy1nA1NSLOadlWqg4colZo_gMu9oOsw/exec" width="100%" height="500px" scrolling="yes"></iframe>
+      <em>*note: jumlah total belum di kurangi hutang anggota.</em>
+    </section>
+  </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2024 <b>Remaja Mekar Indah</b>. All Rights Reserved.</small>
+            <small class="block">Design by <a href="">@Mukhamad Samsudin</a>.</small>
+  
+            <!-- <ul class="mt-3">
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-tiktok"></i></a></li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+<script>
+  function reloadPage() {
+            location.reload();
+        }
+
+        // Atur interval untuk memuat ulang halaman setiap 60 detik (60000 milidetik)
+        setInterval(reloadPage, 60000);
+</script>
+</body>
+
+</html>
